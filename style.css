@@ -1,8 +1,7 @@
 .main-img {
-    max-width: 48%;
-    float: left;
-    margin-left: 50px;
-    margin-top: 120px;
+    max-width: 50%;
+    display:block;
+    margin: auto;
     box-shadow: 0 0 12px -2px black;
 }
 
@@ -25,8 +24,8 @@
 }
 
 .title {
-    text-align: right;
-    padding-top: 120px;
+    text-align: center;
+    padding-top: 100px;
     padding-right: 10px;
     font-family: "Optima", sans-serif;
     color: beige;
@@ -34,18 +33,22 @@
 }
 
 .mission {
-    text-align: right;
+    text-align: center;
     font-family: "Optima", sans-serif;
     color: beige;
-    padding-top: 100px;
+    padding-top: 10px;
+    padding-right: 10px;
     width: 40%px;
 }
 
 .quote {
     font-style: italic;
-    padding-top: 100px;
+    padding-top: 20px;
     font-family: "Optima", sans-serif;
     color: rgb(198, 181, 178);
+    text-align:center;
+    margin: auto;
+    max-width: 50%;
 }
 
 nav {
@@ -54,15 +57,29 @@ nav {
     right: 0;
     top: 0;
     display: flex;
-    height: 80px;
+    height: 60px;
     box-shadow: 0 0 12px -2px black;
-    background-color: rgb(26, 25, 25);
+    background-image: linear-gradient(to bottom right, rgb(237, 213, 180), rgb(220, 238, 245));
+}
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    height: 60px;
+    box-shadow: 0 0 12px -2px black;
+    background-color: rgb(12, 19, 33);
 }
 
 h1 {
-    color: beige;
+    color: rgb(45, 33, 48);
     font-family: "Optima", sans-serif;
     padding-left: 30px;
-    font-size: 30px;
 
+}
+.header-links {
+    font-family: "Optima", sans-serif;
+    text-align: right;
+    
 }
