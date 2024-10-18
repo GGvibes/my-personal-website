@@ -8,20 +8,29 @@
 .bg-image {
     position: absolute;
     z-index: -1;
-    background-image: url("https://cdn.pixabay.com/photo/2020/05/04/16/05/mckenzie-river-5129717_1280.jpg");
+    background-image: url("riverpic.jpg");
     filter: blur(10px);
     width: 100vw;
     top: 0;
 }
 
 .portfolio-heading {
-    color:whitesmoke
-    padding
+    color:whitesmoke;
+    background-color: black;
 }
 
 .portfolio-section {
     color: whitesmoke;
     padding: 20px;
+    display:flex;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin:auto;
+    margin-top: 30px;
+
 }
 
 .portfolio-img {
@@ -63,7 +72,7 @@
 
 .quote {
     font-style: italic;
-    padding-top: 20px;
+    padding-top: 50px;
     font-family: "Optima", sans-serif;
     color: rgb(198, 181, 178);
     text-align: center;
@@ -96,7 +105,6 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    display: flex;
     height: 60px;
     box-shadow: 0 0 12px -2px black;
     background-color: rgb(12, 19, 33);
@@ -154,4 +162,37 @@ footer {
     padding-right: 30px;
     display: flex;
     font-size: larger;
+}
+
+#contactme {
+    padding-top: 100px;
+    font-family: "Optima", sans-serif;
+    font-weight: 100;
+    color:antiquewhite;
+    margin-left: 20%;
+}
+
+.contactform {
+    margin-left: 20%;
+}
+
+.contactheader {
+    color:bisque;
+    font-family: "Optima", sans-serif;
+}
+
+.footerlink {
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    box-shadow: 0 0 12px -2px black;
+    background-color: rgb(12, 19, 33);
+}
+
+#footerlinks {
+    position:fixed;
+    bottom: 0;
+    margin-left: 50vw;
+    margin-right: 50vw;
+    width: 100%;
 }
