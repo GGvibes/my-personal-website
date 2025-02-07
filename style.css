@@ -6,6 +6,7 @@
 }
 
 .bg-image {
+<<<<<<< HEAD
   position: absolute;
   z-index: -1;
   background-image: url("riverpic.jpg");
@@ -30,6 +31,33 @@
   width: 80%;
   margin: auto;
   margin-top: 30px;
+=======
+    position: absolute;
+    z-index: -1;
+    background-image: url("riverpic.jpg");
+    filter: blur(10px);
+    width: 100vw;
+    top: 0;
+}
+
+.portfolio-heading {
+    color:whitesmoke;
+    background-color: black;
+}
+
+.portfolio-section {
+    color: whitesmoke;
+    padding: 20px;
+    display:flex;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin:auto;
+    margin-top: 30px;
+
+>>>>>>> 52cb13fd8d207b1d82656303176893f4e93aff80
 }
 
 .portfolio-img {
@@ -70,6 +98,7 @@
 }
 
 .quote {
+<<<<<<< HEAD
   font-style: italic;
   padding-top: 50px;
   font-family: "Optima", sans-serif;
@@ -78,6 +107,16 @@
   margin: auto;
   max-width: 50%;
   padding-bottom: 100px;
+=======
+    font-style: italic;
+    padding-top: 50px;
+    font-family: "Optima", sans-serif;
+    color: rgb(198, 181, 178);
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    padding-bottom: 100px;
+>>>>>>> 52cb13fd8d207b1d82656303176893f4e93aff80
 }
 
 a {
@@ -103,6 +142,7 @@ nav {
 }
 
 footer {
+<<<<<<< HEAD
   position: fixed;
   left: 0;
   right: 0;
@@ -110,6 +150,15 @@ footer {
   height: 60px;
   box-shadow: 0 0 12px -2px black;
   background-color: rgb(12, 19, 33);
+=======
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    box-shadow: 0 0 12px -2px black;
+    background-color: rgb(12, 19, 33);
+>>>>>>> 52cb13fd8d207b1d82656303176893f4e93aff80
 }
 
 .name {
@@ -155,6 +204,7 @@ footer {
 }
 
 .about-section {
+<<<<<<< HEAD
   font-family: "Arial", Helvetica, sans-serif;
   color: whitesmoke;
   padding: 10px;
@@ -195,4 +245,46 @@ footer {
   margin-left: 50vw;
   margin-right: 50vw;
   width: 100%;
+=======
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    font-size: larger;
+}
+
+#contactme {
+    padding-top: 100px;
+    font-family: "Optima", sans-serif;
+    font-weight: 100;
+    color:antiquewhite;
+    margin-left: 20%;
+}
+
+.contactform {
+    margin-left: 20%;
+}
+
+.contactheader {
+    color:bisque;
+    font-family: "Optima", sans-serif;
+}
+
+.footerlink {
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    box-shadow: 0 0 12px -2px black;
+    background-color: rgb(12, 19, 33);
+}
+
+#footerlinks {
+    position:fixed;
+    bottom: 0;
+    margin-left: 50vw;
+    margin-right: 50vw;
+    width: 100%;
+>>>>>>> 52cb13fd8d207b1d82656303176893f4e93aff80
 }
