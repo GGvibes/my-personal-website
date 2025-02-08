@@ -193,6 +193,7 @@ footer {
   width: 40px;
   height: 40px;
   bottom: 0;
+  
   box-shadow: 0 0 12px -2px black;
   background-color: rgb(12, 19, 33);
 }
@@ -200,14 +201,11 @@ footer {
 #footerlinks {
   position: fixed;
   bottom: 0;
-  margin-left: 50vw;
+  margin-left: 45vw;
   margin-right: 50vw;
   width: 100%;
   font-family: "Arial", Helvetica, sans-serif;
   color: whitesmoke;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
   display: flex;
   font-size: larger;
 }
@@ -237,10 +235,4 @@ footer {
   background-color: rgb(12, 19, 33);
 }
 
-#footerlinks {
-  position: fixed;
-  bottom: 0;
-  margin-left: 50vw;
-  margin-right: 50vw;
-  width: 100%;
-}
+
